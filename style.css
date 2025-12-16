@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Ubuntu'; /* Name of the font */
+  src: url('Cust-Font/Ubuntu-Bold.ttf') format('truetype'); /* Path to the .ttf file */
+}
+body {
+  font-family: 'Ubuntu', sans-serif; /* Apply the custom font */
+}
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #0078D7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+button:hover {
+  background-color: #005fa3;
+}
